@@ -4,7 +4,7 @@ fun main(){
     //Val cannot be changed
     val number_one = 1
     //Var can be changed
-    var myAge = 29
-    myAge = 30
-    println("Hello World!")
+    var myAge: Byte = 28
+    myAge = 29
+    println("I am $myAge years old.")
 }
