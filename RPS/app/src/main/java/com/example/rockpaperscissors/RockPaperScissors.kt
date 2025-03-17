@@ -31,7 +31,7 @@ fun main(){
     }
 
     if(winner == "Tie"){
-        println("Its a tie!")
+        println("It's a tie!")
     }else{
         println("The $winner won!")
     }
