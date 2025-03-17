@@ -1,8 +1,11 @@
 package com.example.kotlinbasics
 
 fun main(){
+    var age = 0
+    println("Please enter your age as a full number:")
+    val enteredValue = readln()
+    age = enteredValue.toInt()
 
-    var age = 29
 
     if(age >= 21){
         //Execute this
