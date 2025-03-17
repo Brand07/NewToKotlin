@@ -30,4 +30,10 @@ fun main(){
         else -> "Computer"
     }
 
+    if(winner == "Tie"){
+        println("Its a tie!")
+    }else{
+        println("The $winner won!")
+    }
+
 }
