@@ -6,6 +6,22 @@ fun main(){
     println("Rock, Paper, Scissors? Enter your choice: ")
     playerChoice = readln()
 
+    var playerChoices = listOf("Rock", "Paper", "Scissors")
+
+    while(!playerChoices.contains(playerChoice)) {
+        println("Incorrect choice.")
+        println("Rock, Paper, Scissors? Enter your choice: ")
+        playerChoice = readln()
+
+    }
+
+
+
+
+
+
+
+
     val randomNumber = (1..3).random()
 
     when (randomNumber) {
